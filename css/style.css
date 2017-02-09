@@ -6,9 +6,9 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Lato',sans-serif;
-	font-weight: 300;
-    color: #666;
-    background-color: #fff;
+	  font-weight: 300;
+    color: #F5F5F5;     /*#8b4726;*/     /*#EEC591;*/          /*สีฟ้อน*/
+    background-color: #f2914d;    /*#FFF*/
 }
 
 html {
@@ -58,7 +58,7 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid #8B4726;   /*rgba(255,255,255,.3); สีแทปตอนเลื่อน*/
 	
 }
 
@@ -83,7 +83,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: #f29959;     /*rgba(255,255,255,.4);  สีของแทป*/
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -94,7 +94,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+  color: #f5f5f5; /*สีตัวอักษรในแทป*/
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -281,7 +281,7 @@ hr {
 }
 
 .bg-gray {
-	background: #f8f8f8;
+	background: #ee7621; /*สีตรงระหว่าเลื่อน*/
 }
 
 
@@ -330,7 +330,8 @@ hr {
 }
 
 .intro .slogan h2 {
-	color: #FFF;
+	/*color: #FFF;*/   /*เอาสีของคำนำออก*/
+  color: #FFF;
 	text-shadow: none;
 	font-size: 60px;
 	line-height: 60px;
@@ -346,7 +347,8 @@ hr {
 }
 
 .intro .slogan h4 {
-	color: #fff;
+	/*color: #fff;*/
+  color: #FFF;
 	/*text-shadow: -1px 1px 1px #000;*/
 }
 
@@ -356,7 +358,7 @@ hr {
 ============================ */
 
 .boxed-grey {
-	background: #f9f9f9;
+	background: #ee7621; /*กรอบข้อความ*/
 	padding: 20px;
 }
 
@@ -590,7 +592,7 @@ Parallax
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 40px;
-    color: #fff;
+    color: #EEC591;   /*#fff;*/
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
