@@ -28,7 +28,8 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 footer {
-    background-color: #ee7621;  /*สีข้างล่าง*/
+  background: rgba(222, 92, 0, 0.47);
+    /*background-color: #ee7621;  สีข้างล่าง*/
 }
 
 .btn-skin {
