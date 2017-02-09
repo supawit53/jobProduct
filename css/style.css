@@ -58,7 +58,7 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid #8B4726;   /*rgba(255,255,255,.3); สีแทปตอนเลื่อน*/
+    /*border-bottom: 1px solid #f2914d;*/ /*#8B4726;*/   /*rgba(255,255,255,.3); สีแทปตอนเลื่อน*/
 	
 }
 
@@ -281,7 +281,8 @@ hr {
 }
 
 .bg-gray {
-	background: #ee7621; /*สีตรงระหว่าเลื่อน*/
+	/*background: #ee7621; สีตรงระหว่าเลื่อน*/
+  background: rgba(222, 92, 0, 0.47);
 }
 
 
