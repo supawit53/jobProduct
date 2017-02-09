@@ -1,9 +1,9 @@
 
 a,.tp-caption a.btn:hover {
-	color: #CCCCCC;
+	color: #F5F5F5;    /*ปุ่ม*/
 }
 .top-nav-collapse {
-	background: #CCCCCC;
+	background: #ee7621;   /*สีแทป*/
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
@@ -28,11 +28,11 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 footer {
-    background-color: #CCCCCC;
+    background-color: #ee7621;  /*สีข้างล่าง*/
 }
 
 .btn-skin {
   color: #fff;
-  background-color: #CCCCCC;
-  border-color: #CCCCCC;
+  background-color: #8b4726;  /*สีปุ่ม*/
+  border-color: #8b4726;
 }
